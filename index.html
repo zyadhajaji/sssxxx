@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>The TikTok Downloader</h1>
+    <div class="download-box">
+      <input type="text" id="tiktokUrl" placeholder="Paste TikTok URL here...">
+      <button class="gold-btn" onclick="showOptions()">Download</button>
+      <div class="options" id="downloadOptions">
+        <button onclick="downloadOption('watermark')">Download with Watermark</button>
+        <button onclick="downloadOption('hd')">Download 4K HD (No Watermark)</button>
+        <button onclick="downloadOption('mp3')">Download MP3 (Audio Only)</button>
+        <button onclick="downloadOption('app')">Use App</button>
+      </div>
+    </div>
+  </header>
+
+    <!-- HOW TO SECTION -->
+  <section class="info-section">
+    <h2>How to download TikTok without watermark?</h2>
+    <p>
+      Our TikTok Downloader makes it easy to save videos in the best quality.
+      Simply paste the link, choose the format (HD, MP3, or with watermark), and download instantly!
+    </p>
+    <div class="steps">
+      <div class="step">
+        <h3>1</h3>
+        <p>Copy your TikTok video link.</p>
+      </div>
+      <div class="step">
+        <h3>2</h3>
+        <p>Paste it in the box above.</p>
+      </div>
+      <div class="step">
+        <h3>3</h3>
+        <p>Choose the format and hit download.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW TO -->
+  <section>
+    <h2>How to download TikTok without watermark?</h2>
+    <p>Paste the TikTok link into the box, click "Download," then choose your preferred quality.</p>
+  </section>
+
+  <section>
+    <h2>This is how you can use our TikTok downloader:</h2>
+    <p>It's simple: paste the link, choose the format, and enjoy your video with no watermark.</p>
+  </section>
+
+  <section>
+    <h2>This TikTok Downloader is a free tool that helps download at the highest quality:</h2>
+    <p>We offer free, unlimited downloads with the highest video and audio quality available.</p>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+
+      <div class="faq-item">
+        <h3 onclick="toggleFAQ(this)">Is this tool free?</h3>
+        <p>Yes! Our TikTok downloader is 100% free with no hidden charges. We built this platform to give users fast and easy access to their favorite TikTok videos without paying for premium subscriptions.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFAQ(this)">Do I need to install anything?</h3>
+        <p>No installations or plugins are required. Everything is web-based and works directly in your browser.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFAQ(this)">Does this work on all devices?</h3>
+        <p>Yes! Our tool works seamlessly on iOS, Android, Windows, and macOS. You can use it on your phone, tablet, or PC.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFAQ(this)">Can I download videos without watermark?</h3>
+        <p>Absolutely. Choose the "4K HD (No Watermark)" option to download a clean, high-quality version of the TikTok video.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFAQ(this)">Can I extract audio from TikTok videos?</h3>
+        <p>Yes. Select the MP3 option, and we will automatically extract the audio in high-quality format.</p>
+      </div>
+
+      <div class="faq-item hidden-faq">
+        <h3 onclick="toggleFAQ(this)">Is there a limit on downloads?</h3>
+        <p>No! You can download as many videos or audios as you like. We do not have any daily or weekly limits.</p>
+      </div>
+
+      <div class="faq-item hidden-faq">
+        <h3 onclick="toggleFAQ(this)">Is my privacy protected?</h3>
+        <p>Yes, we value your privacy. We do not store any links, videos, or user data. All downloads are processed on the fly.</p>
+      </div>
+
+      <div class="faq-item hidden-faq">
+        <h3 onclick="toggleFAQ(this)">Do you support private TikToks?</h3>
+        <p>We only support public TikToks. Private videos are restricted by TikTok’s privacy policy.</p>
+      </div>
+
+      <button class="gold-btn show-more-btn" onclick="showMoreFAQs()">Show More</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to bottom, #1a1a1a, #0e0e0e);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 0px 0px 6px #FFD700;
+  font-weight: 700;
+}
+
+/* DOWNLOAD BOX */
+.download-box {
+  background: linear-gradient(145deg, #1a1a1a, #0b0b0b);
+  border: 2px solid #FFD700;
+  padding: 30px 20px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.3);
+}
+
+.download-box input {
+  width: 80%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* GOLD BUTTON */
+.gold-btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.gold-btn:hover {
+  background: linear-gradient(45deg, #FFA500, #FFD700);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+
+/* OPTIONS */
+.options {
+  margin-top: 20px;
+  display: none;
+}
+
+.options button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 70%;
+  transition: all 0.3s;
+  font-weight: 600;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.options button:hover {
+  background: linear-gradient(45deg, #FFA500, #FFD700);
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.8);
+}
+
+/* SECTIONS */
+/* HEADER */
+.info-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+
+.info-section h2 {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.step {
+  text-align: center;
+  width: 30%;
+}
+
+.step h3 {
+  background: #FFD700;
+  color: #000;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  font-size: 18px;
+}
+
+/* FAQ SECTION */
+.faq {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+
+.faq h2 {
+  color: #FFD700;
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  color: #FFD700;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.faq-item p {
+  display: none;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.hidden-faq {
+  display: none;
+}
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.2);
+}
+
+section h2 {
+  color: #fff;
+  text-shadow: 0px 0px 3px #FFD700;
+  margin-bottom: 10px;
+}
+
+/* FAQ */
+.faq {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  color: #FFD700;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #FFA500;
+}
+
+.faq-container {
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+
+.faq-item {
+  text-align: left;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.faq-item h3 {
+  font-size: 1.2rem;
+  color: #FFD700;
+  cursor: pointer;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.faq-item h3:hover {
+  color: #FFA500;
+}
+
+.faq-item p {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  font-size: 0.95rem;
+  color: #ddd;
+  margin: 0;
+  line-height: 1.4;
+  padding: 0 0;
+}
+
+/* Expanded answer */
+.faq-item.active p {
+  max-height: 200px;
+  padding: 10px 0 0 0;
+}
+
+/* Show More Button */
+.show-more-btn {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* Initially hidden extra FAQs */
+.hidden-faq {
+  display: none;
+}
